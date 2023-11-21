@@ -28,4 +28,4 @@ jobs:
           context: .
           push: true
           target: production
-          tags: ${{ secrets.DOCKER_USERNAME }}/$dockercicdv2:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/dockercicdv2:latest
